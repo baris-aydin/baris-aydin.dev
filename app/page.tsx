@@ -8,7 +8,7 @@ import {
   Mail,
   ArrowUpRight,
   Code,
-  Sparkles,
+  CheckCircle,
   ChevronDown,
 } from "lucide-react";
 import { SiteNav } from "@/components/site-nav";
@@ -157,7 +157,7 @@ export default function HomePage() {
           <div className="relative z-10 text-center max-w-4xl mx-auto">
             <div className="fade-in-up">
               <span className="inline-flex items-center gap-2 px-4 py-2 bg-card border border-border rounded-full text-sm text-muted-foreground mb-8">
-                <Sparkles size={16} className="text-primary" />
+                <CheckCircle size={16} className="text-primary" />
                 Open to opportunities
               </span>
             </div>
