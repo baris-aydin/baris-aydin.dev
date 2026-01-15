@@ -163,7 +163,7 @@ export default function HomePage() {
             </div>
 
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-[1.2] fade-in-up delay-100">
-              <span className="block text-foreground">Hi, I&apos;m</span>
+              <span className="block text-foreground">Hi, I&apos;m </span>
               <span className="block bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent leading-[1.2] pb-2">
                 Baris Aydin 
               </span>
