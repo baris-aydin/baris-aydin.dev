@@ -107,10 +107,10 @@ export default function HomePage() {
 
   const featured = [
     {
-      title: "Twitter/X Timestamp Finder",
+      title: "Tweet Time Indexer",
       description:
         "An OCR-powered tool that extracts and filters timestamps from Twitter/X screenshots for fast, accurate retrieval.",
-      tags: ["Python", "PaddleOCR", "OpenCV", "Docker"],
+      tags: ["Python", "FastAPI", "AWS", "Docker"],
       href: "/projects",
     },
     {
