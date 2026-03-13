@@ -11,15 +11,15 @@ type TimelineEntry = {
 
 const EXPERIENCE: TimelineEntry[] = [
   {
-    title: "Software Developer – OCR Automation Project",
-    org: "Freelance Software Development",
+    title: "Software Developer",
+    org: "Freelance (Self-Employed)",
     location: "Ottawa, ON",
     date: "Sep 2025 – Present",
     bullets: [
-      "Built an OCR-powered screenshot indexing system (Python, PaddleOCR, OpenCV, Streamlit) to extract and filter timestamps from Twitter/X screenshots.",
-      "Implemented date/time parsing with exact, windowed, and time-range matching for reliable retrieval.",
-      "Containerized the app with Docker and deployed on Railway for accessible, scalable usage.",
-      "Currently migrating the system to a FastAPI backend with async OCR, Redis workers, Postgres, and object storage.",
+      "Built an OCR-powered screenshot indexing platform to extract and query timestamps from Twitter/X screenshots.",
+      "Designed and deployed a scalable AWS infrastructure (App Runner, ECS Fargate, RDS, ElastiCache, S3, Amplify) handling async OCR processing with Redis Queue workers, achieving reliable job processing and scalability.",
+      "Delivered a production-ready full-stack application using Next.js, Python/FastAPI, PaddleOCR, PostgreSQL, and Docker, transitioned from a single-container prototype to a distributed microservices architecture.",
+      "Co-developing Mentora, a mobile-first tutoring marketplace connecting parents, students, and university mentors, building the backend architecture with Node.js/Express, Supabase Auth, and PostgreSQL to support lesson booking, messaging, and AI-powered session summaries.",
     ],
   },
   {

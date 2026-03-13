@@ -4,11 +4,11 @@ import { ArrowUpRight, Github, Code, Globe } from "lucide-react";
 
 const PROJECTS = [
   {
-    title: "Twitter/X Timestamp Finder",
+    title: "Tweet Time Indexer",
     description:
-      "An OCR-powered automation tool that indexes and filters Twitter/X screenshots based on extracted timestamps. Uses PaddleOCR and OpenCV to detect and parse date/time, with exact, windowed, and time-range matching. Includes a Streamlit drag-and-drop UI and ZIP export for bulk results. Containerized with Docker and deployed on Railway for production-ready access.",
-    tags: ["Python", "PaddleOCR", "OpenCV", "Streamlit", "Docker"],
-    link: "https://tweet-time-indexer-production.up.railway.app",
+      "A full-stack web application that extracts and indexes timestamps from Twitter/X screenshots using OCR. Upload screenshots, filter by date ranges, and export results as CSV or ZIP. Built with Next.js, FastAPI, and PaddleOCR, with async processing via Redis workers. Fully containerized and deployed on AWS with App Runner, ECS Fargate, Amplify, and PostgreSQL.",
+    tags: ["TypeScript", "Python", "FastAPI", "PaddleOCR", "AWS", "Docker"],
+    link: "https://www.tweetindexer.com",
   },
   {
     title: "Hiking Assistant Vest",
