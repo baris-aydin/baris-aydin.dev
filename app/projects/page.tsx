@@ -4,6 +4,20 @@ import { ArrowUpRight, Github, Code, Globe } from "lucide-react";
 
 const PROJECTS = [
   {
+  title: "Mentora — Education Marketplace Platform",
+  description:
+    "A mobile-first education platform connecting students and parents with mentors for personalized lessons. Contributed to product development and full-stack implementation across profile services, dashboard features, REST API integration, and end-to-end testing. Helped define technical requirements for mentor verification, lesson scheduling, wallet flows, and role-based experiences for students, parents, and mentors. Currently supporting integrations for AI-generated lesson summaries and quizzes using meeting transcripts.",
+  tags: ["React Native", "TypeScript", "REST APIs", "Backend Integration", "Product Development", "AI Integration"],
+  link: "https://github.com/baris-aydin",
+  },
+  {
+  title: "Apollon Entertainment Systems Website",
+  description:
+    "Designed and developed a digital showroom for Apollon Entertainment Systems, an automotive technology brand offering multimedia, safety, and motorcycle smart systems. Built a responsive product catalog with category pages, vehicle-brand filtering, product detail templates, and distributor inquiry flows. Structured the platform for scalable content management, SEO, analytics, and future product expansion using Next.js, TypeScript, Tailwind CSS, Sanity CMS, and Vercel.",
+  tags: ["Next.js", "TypeScript", "Tailwind CSS", "Sanity CMS", "Vercel"],
+  link: "https://github.com/baris-aydin/apollon-website",
+  },
+  {
     title: "Tweet Time Indexer",
     description:
       "A full-stack web application that extracts and indexes timestamps from Twitter/X screenshots using OCR. Upload screenshots, filter by date ranges, and export results as CSV or ZIP. Built with Next.js, FastAPI, and PaddleOCR, with async processing via Redis workers. Fully containerized and deployed on AWS with App Runner, ECS Fargate, Amplify, and PostgreSQL.",
