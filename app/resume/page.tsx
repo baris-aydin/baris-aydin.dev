@@ -12,14 +12,27 @@ type TimelineEntry = {
 const EXPERIENCE: TimelineEntry[] = [
   {
     title: "Software Developer",
-    org: "Freelance (Self-Employed)",
-    location: "Ottawa, ON",
+    org: "Freelance / Product Development",
+    location: "Toronto, ON",
     date: "Sep 2025 – Present",
     bullets: [
-      "Built an OCR-powered screenshot indexing platform to extract and query timestamps from Twitter/X screenshots.",
-      "Designed and deployed a scalable AWS infrastructure (App Runner, ECS Fargate, RDS, ElastiCache, S3, Amplify) handling async OCR processing with Redis Queue workers, achieving reliable job processing and scalability.",
-      "Delivered a production-ready full-stack application using Next.js, Python/FastAPI, PaddleOCR, PostgreSQL, and Docker, transitioned from a single-container prototype to a distributed microservices architecture.",
-      "Co-developing Mentora, a mobile-first tutoring marketplace connecting parents, students, and university mentors, building the backend architecture with Node.js/Express, Supabase Auth, and PostgreSQL to support lesson booking, messaging, and AI-powered session summaries.",
+      "Build and ship full-stack web and mobile products using Next.js, React Native, TypeScript, Node.js, Python/FastAPI, PostgreSQL, and AWS.",
+      "Co-develop Mentora, an education marketplace with mentor discovery, booking, role-based dashboards, identity verification, payments, and AI-generated lesson summaries and quizzes.",
+      "Develop INFADS, an ongoing creator intelligence platform for influencer discovery, audience analytics, benchmarking, creator comparison, campaign workflows, and verified Instagram Insights.",
+      "Designed and developed production websites and commerce experiences for Apollon Entertainment Systems and Sakarya Torf using Next.js, TypeScript, Tailwind CSS, CMS integrations, and Vercel.",
+      "Built and deployed scalable backend services and data pipelines using AWS services including App Runner, ECS Fargate, RDS, S3, ElastiCache, and Amplify.",
+    ],
+  },
+  {
+    title: "Order Fulfillment Associate / Special Services",
+    org: "The Home Depot Canada",
+    location: "Toronto, ON",
+    date: "Mar 2026 – Present",
+    bullets: [
+      "Fulfill, stage, and coordinate customer orders across store departments while maintaining accurate order status and inventory handling.",
+      "Monitor active orders, resolve missing-item and fulfillment issues, and coordinate deliveries with customers, carriers, receiving teams, and other departments.",
+      "Prioritize order workflows, arrange or reschedule deliveries, and support time-sensitive fulfillment decisions in a high-volume retail environment.",
+      "Assist customers through Special Services with order issues, product availability, delivery coordination, and transaction-related requests.",
     ],
   },
   {
@@ -28,9 +41,9 @@ const EXPERIENCE: TimelineEntry[] = [
     location: "Ottawa, ON",
     date: "May 2024 – Sep 2024",
     bullets: [
-      "Led weekly labs and supported 20+ students with debugging and core OS concepts.",
-      "Covered processes, IPC, threads, semaphores, and memory management in C/Java on Ubuntu.",
-      "Reinforced learning through practical exercises and one-on-one support during labs and office hours.",
+      "Led weekly operating systems labs and supported 20+ students with debugging and core OS concepts.",
+      "Covered processes, IPC, threads, semaphores, synchronization, and memory management in C/Java on Ubuntu.",
+      "Supported students through practical exercises, lab troubleshooting, and one-on-one guidance during labs and office hours.",
     ],
   },
   {
