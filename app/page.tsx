@@ -65,9 +65,11 @@ const ProjectCard = ({
   href: string;
   delay: number;
 }) => {
+  const external = href.startsWith("http");
   return (
     <Link
       href={href}
+      {...(external && { target: "_blank", rel: "noopener noreferrer" })}
       className="group p-6 bg-card border border-border rounded-2xl hover:border-primary/50 transition-all duration-500 card-hover fade-in-up block"
       style={{ animationDelay: `${delay}ms` }}
     >
@@ -121,11 +123,11 @@ export default function HomePage() {
       href: "/projects",
     },
     {
-      title: "Security System (STM32 + FreeRTOS)",
+      title: "INFADS — Creator Intelligence Platform",
       description:
-        "An embedded security system with keypad input, OLED status, motion detection, and concurrent real-time tasks.",
-      tags: ["C", "FreeRTOS", "STM32"],
-      href: "/projects",
+        "An influencer intelligence and marketing platform for discovering, analyzing, comparing, and shortlisting creators using content, audience, engagement, and campaign analytics.",
+      tags: ["Next.js", "TypeScript", "Data Analytics", "Instagram API"],
+      href: "https://infads.io",
     },
   ];
 
